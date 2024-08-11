@@ -1,5 +1,5 @@
  import React from 'react'
-
+import ResponsiveNav from './components/ResponsiveNav.jsx'
  import{Hero,PopularProducts,SuperQuality,Services,SpecialOffer,CustomerReviews,Subscribe,Footer} from './sections/index.js'
  import Nav from './components/Nav.jsx'
 
@@ -7,6 +7,7 @@
    return (
      <main className='relative' >
        <Nav/>
+       
      <section className='xl:padding-l wide:padding-r padding-b' >
        <Hero/>
      </section>
